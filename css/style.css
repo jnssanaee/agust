@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+/* reset */
+body{-ms-overflow-style:scrollbar;color:#f5f0de;}
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea,button,select{margin:0;padding:0}
+body,input,textarea,select,button,table{font-family:"calendas_regularregular",serif;
+    font-style: normal;
+    font-weight: normal;Malgun Gothic,'돋움',Dotum,helvetica,AppleSDGothicNeo,arial,sans-serif;font-size:12px}
+html{height:100%}
+img,fieldset{border:0}
+ul,ol{list-style:none}
+em,address{font-style:normal}
+img{vertical-align:top}
+a{text-decoration:none}
+article,aside,dialog,footer,header,section,footer,nav,figure{display:block;margin:0;padding:0}
+button{border:0 none;background:transparent;cursor:pointer}
+button::-moz-focus-inner{padding:0;border:0}
+hr{display:none}
+textarea{resize:none}
+table{border-collapse:collapse;border-spacing:0}
+input[type=text]::-ms-clear{display:none;}
+
+
+
+#header h1 {
+    background-image: url("/agust/img/agust.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 36px;
+    width: 100px;
+    text-indent: -5000px;
+}
+
+.box{border:7px solid #3e7d4a;}
