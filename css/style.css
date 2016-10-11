@@ -3,9 +3,14 @@
 /* reset */
 body{-ms-overflow-style:scrollbar;color:#f5f0de;}
 body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea,button,select{margin:0;padding:0}
-body,input,textarea,select,button,table{font-family:"calendas_regularregular",serif;
+body,input,textarea,select,button,table{
+	font-family:"calendas_regularregular",serif;
     font-style: normal;
-    font-weight: normal;Malgun Gothic,'돋움',Dotum,helvetica,AppleSDGothicNeo,arial,sans-serif;font-size:12px}
+    font-weight: normal;
+    font-size:16px;
+	background: #f5f0de;
+	color: #444;
+}
 html{height:100%}
 img,fieldset{border:0}
 ul,ol{list-style:none}
@@ -20,15 +25,84 @@ textarea{resize:none}
 table{border-collapse:collapse;border-spacing:0}
 input[type=text]::-ms-clear{display:none;}
 
-
+.fz0{font-size:0;}
+.vt{vertical-align:top;}
+.ib{display:inline-block;}
+.tac{text-align:center;}
 
 #header h1 {
-    background-image: url("/agust/img/agust.svg");
-    background-position: center center;
-    background-repeat: no-repeat;
+	margin-right: 15px;
+    background: url("/agust/img/agust.svg") no-repeat 50% 50%;
     height: 36px;
     width: 100px;
     text-indent: -5000px;
 }
 
+
+#header li{display:inline-block}
+#header li a{
+	padding: 0 15px;
+	line-height: 45px;
+	color: #2d211c;
+	font-size: 16px;
+	font-family: 'halis_gr_regularregular', sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
 .box{border:7px solid #3e7d4a;}
+.box .box_inner{margin:7px;border:1px solid #3e7d4a;}
+.center{width:1000px;margin:0 auto;}
+
+
+
+
+@font-face {
+  font-family: 'halis_grbold';
+  src: url('/agust/fonts/ahmet_altun_-_halisgr-bold-webfont.eot');
+  src: url('/agust/fonts/ahmet_altun_-_halisgr-bold-webfont.eot?#iefix') format('embedded-opentype'), url('/agust/fonts/ahmet_altun_-_halisgr-bold-webfont.woff') format('woff'), url('/agust/fonts/ahmet_altun_-_halisgr-bold-webfont.ttf') format('truetype'), url('/agust/fonts/ahmet_altun_-_halisgr-bold-webfont.svg#halis_grbold') format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'halis_grbold_italic';
+  src: url('/agust/fonts/ahmet_altun_-_halisgr-bolditalic-webfont.eot');
+  src: url('/agust/fonts/ahmet_altun_-_halisgr-bolditalic-webfont.eot?#iefix') format('embedded-opentype'), url('/agust/fonts/ahmet_altun_-_halisgr-bolditalic-webfont.woff') format('woff'), url('/agust/fonts/ahmet_altun_-_halisgr-bolditalic-webfont.ttf') format('truetype'), url('/agust/fonts/ahmet_altun_-_halisgr-bolditalic-webfont.svg#halis_grbold_italic') format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'halis_gr_regularregular';
+  src: url('/agust/fonts/ahmet_altun_-_halisgr-regular-webfont.eot');
+  src: url('/agust/fonts/ahmet_altun_-_halisgr-regular-webfont.eot?#iefix') format('embedded-opentype'), url('/agust/fonts/ahmet_altun_-_halisgr-regular-webfont.woff') format('woff'), url('/agust/fonts/ahmet_altun_-_halisgr-regular-webfont.ttf') format('truetype'), url('/agust/fonts/ahmet_altun_-_halisgr-regular-webfont.svg#halis_gr_regularregular') format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'halis_grregular_italic';
+  src: url('/agust/fonts/ahmet_altun_-_halisgr-regularitalic-webfont.eot');
+  src: url('/agust/fonts/ahmet_altun_-_halisgr-regularitalic-webfont.eot?#iefix') format('embedded-opentype'), url('/agust/fonts/ahmet_altun_-_halisgr-regularitalic-webfont.woff') format('woff'), url('/agust/fonts/ahmet_altun_-_halisgr-regularitalic-webfont.ttf') format('truetype'), url('/agust/fonts/ahmet_altun_-_halisgr-regularitalic-webfont.svg#halis_grregular_italic') format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'calendas_regularregular';
+  src: url('/agust/fonts/calendas-webfont.eot');
+  src: url('/agust/fonts/calendas-webfont.eot?#iefix') format('embedded-opentype'), url('/agust/fonts/calendas-webfont.woff') format('woff'), url('/agust/fonts/calendas-webfont.ttf') format('truetype'), url('/agust/fonts/calendas-webfont.svg#calendas_regularregular') format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'calendas_boldbold';
+  src: url('/agust/fonts/calendas-bold-webfont.eot');
+  src: url('/agust/fonts/calendas-bold-webfont.eot?#iefix') format('embedded-opentype'), url('/agust/fonts/calendas-bold-webfont.woff') format('woff'), url('/agust/fonts/calendas-bold-webfont.ttf') format('truetype'), url('/agust/fonts/calendas-bold-webfont.svg#calendas_boldbold') format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'calendasitalic';
+  src: url('/agust/fonts/calendas-italic-webfont.eot');
+  src: url('/agust/fonts/calendas-italic-webfont.eot?#iefix') format('embedded-opentype'), url('/agust/fonts/calendas-italic-webfont.woff') format('woff'), url('/agust/fonts/calendas-italic-webfont.ttf') format('truetype'), url('/agust/fonts/calendas-italic-webfont.svg#calendasitalic') format('svg');
+  font-weight: normal;
+  font-style: normal; }
